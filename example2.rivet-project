@@ -5,38 +5,37 @@ data:
       testSuites: []
       version: 1
   graphs:
-    7csOhbXu44Jps1V4znQpl:
+    73oXPT85j5KpPwLgdK9XT:
       metadata:
         description: ""
-        id: 7csOhbXu44Jps1V4znQpl
-        name: chat-history
+        id: 73oXPT85j5KpPwLgdK9XT
+        name: other_graph
       nodes:
-        '[ECtteSLdMxsPGFVFY6oM8]:text "Text"':
-          data:
-            text: You are ChatGPT, but running inside a Rivet Graph. Rivet is a visual
-              programming tool for interactions with LLMs. Let the user know
-              about that!
-          outgoingConnections:
-            - output->"Prompt" hWLNO4XDZO9XPXIDGVjga/input
-          visualData: 345.2716928515801/39.49413157421887/330/45//
-        '[NOaDQSTgVr8lJoGjPetSo]:graphInput "Graph Input"':
+        '[2vJSdn30Ej5O4rmVnwLrr]:graphInput "Graph Input"':
           data:
             dataType: chat-message[]
             id: input
             useDefaultValueInput: false
           outgoingConnections:
-            - data->"Output (Chat)" t3d6sXbFk0i9EkAgvd37R/prompt
-          visualData: 351.95598246174876/489.9382502904898/330/64/var(--node-color-3)/var(--grey-darkish)
-        '[hWLNO4XDZO9XPXIDGVjga]:prompt "Prompt"':
+            - data->"Output (Chat)" y01LP-GcLEW0YEbLSr3tH/prompt
+          visualData: 327.22918315036355/549.8021722010378/330/64/var(--node-color-3)/var(--grey-darkish)
+        '[Vu3wsU-kCdI6a_Ba6C_Ij]:prompt "Prompt"':
           data:
             enableFunctionCall: false
             promptText: "{{input}}"
             type: system
             useTypeInput: false
           outgoingConnections:
-            - output->"Output (Chat)" t3d6sXbFk0i9EkAgvd37R/systemPrompt
-          visualData: 389.2797533784723/243.3127158681644/280/43//
-        '[t3d6sXbFk0i9EkAgvd37R]:chat "Output (Chat)"':
+            - output->"Output (Chat)" y01LP-GcLEW0YEbLSr3tH/systemPrompt
+          visualData: 364.5529540670871/303.17663777871235/280/43//
+        '[cYJm0XgsdBAb0rUK15yCf]:text "Text"':
+          data:
+            text: You are the local tennis couch. Trying to help your student to play the
+              best tennis of his life!
+          outgoingConnections:
+            - output->"Prompt" Vu3wsU-kCdI6a_Ba6C_Ij/input
+          visualData: 320.5448935401949/99.35805348476686/330/45//
+        '[y01LP-GcLEW0YEbLSr3tH]:chat "Output (Chat)"':
           data:
             cache: false
             enableFunctionUse: false
@@ -61,9 +60,9 @@ data:
             useTopPInput: false
             useUseTopPInput: false
             useUserInput: false
-          visualData: 835.1097899549993/313.8617381627201/230/32//
+          visualData: 810.3829906436141/373.72566007326805/230/32//
   metadata:
-    description: Example to run via rivet-node
-    id: vHpwmvjUYbE-MQJ7H_sV_
-    title: Example project
+    description: ""
+    id: rmdGTQwf7rcibNo1vDt2I
+    title: Example project2
   plugins: []

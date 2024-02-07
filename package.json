@@ -1,11 +1,12 @@
 {
-    "name": "rivet-node_example",
+    "name": "rivet-chat-api",
     "version": "1.0.0",
-    "description": "Simple example how to run rivet-node and execute your rivet graphs",
+    "description": "Connects any rivet graph to Chatbot UI",
     "main": "rivet.ts",
     "scripts": {
         "build": "tsc",
-        "start": "node dist/api.js"
+        "start": "node dist/api.js",
+        "test": "jest"
     },
     "type": "module",
     "author": "",
@@ -17,7 +18,8 @@
     "devDependencies": {
         "@types/config": "^3.3.3",
         "@types/express": "^4.17.21",
+        "axios": "^1.6.7",
         "config": "^3.3.10",
-        "prettier": "^3.2.4"
+        "jest": "^29.7.0"
     }
 }

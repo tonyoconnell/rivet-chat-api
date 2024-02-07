@@ -1,3 +1,8 @@
 /.vscode/launch.json
 /node_modules/
-/dist/
+example.rivet-project
+/config/
+/audio/*
+config.gypi
+/src/archive/
+/dist/archive/
