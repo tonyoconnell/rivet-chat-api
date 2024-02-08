@@ -3,7 +3,7 @@ builder = "nixpacks"
 buildCommand = "NODE_ENV=production npm install"
 
 [deploy]
-startCommand = "NODE_ENV=production node /src/api.js"
+startCommand = "NODE_ENV=production npm start"
 sleepApplication = false
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
