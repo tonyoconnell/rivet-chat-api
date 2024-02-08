@@ -1,6 +1,6 @@
 [build]
 builder = "nixpacks"
-buildCommand = "npm install --omit=dev &&  npm start"
+buildCommand = "npm install &&  npm run build"
 
 [deploy]
 startCommand = "node src/api.js"
