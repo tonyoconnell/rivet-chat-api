@@ -3,7 +3,7 @@ builder = "nixpacks"
 buildCommand = "npm start --omit=dev"
 
 [deploy]
-startCommand = "node src/api.js"
+startCommand = "node src/api.js --omit=dev"
 healthcheckPath = "/"
 healthcheckTimeout = 100
 restartPolicyType = "never"
