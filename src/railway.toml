@@ -1,0 +1,9 @@
+[build]
+builder = "nixpacks"
+buildCommand = "npm run build"
+
+[deploy]
+startCommand = "node src/api.js"
+healthcheckPath = "/"
+healthcheckTimeout = 100
+restartPolicyType = "never"
