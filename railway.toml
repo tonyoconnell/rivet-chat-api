@@ -10,7 +10,7 @@ restartPolicyMaxRetries = 10
 
 # Add production-specific environment variables here
 [env.production]
-NODE_ENV = "production.json"
+NODE_ENV = "./config/production.json"
 # Add other environment variables as needed
 # SECRET_KEY = "your_production_secret_here"
 

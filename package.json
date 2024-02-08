@@ -5,7 +5,8 @@
     "main": "rivet.ts",
     "scripts": {
         "build": "tsc",
-        "start": "set NODE_ENV=production&& node dist/api.js",
+        "start": "node dist/api.js",
+        "start-production": "set NODE_ENV=production&& node dist/api.js",
         "test": "jest"
     },
     "type": "module",
