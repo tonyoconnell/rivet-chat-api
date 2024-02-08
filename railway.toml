@@ -1,6 +1,6 @@
 [build]
 builder = "nixpacks"
-buildCommand = "NODE_ENV=production npm run build"
+buildCommand = "NODE_ENV=production npm install"
 
 [deploy]
 startCommand = "node src/api.js"
